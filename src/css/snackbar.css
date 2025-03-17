@@ -1,0 +1,51 @@
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin-left: 156px;
+  width: 360px;
+}
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  font: 400 16px / 150% Montserrat;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-left: 0;
+}
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font: 500 16px / 150% Montserrat;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.delay-input {
+  height: 40px;
+  border-radius: 4px;
+  border-color: #808080;
+  transition-duration: 0.4s;
+}
+.delay-input:hover {
+  border-color: 2e2F42;
+}
+.delay-input::after {
+  border-color: #4e75ff;
+}
